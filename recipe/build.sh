@@ -9,4 +9,5 @@ cp $BUILD_PREFIX/share/gnuconfig/config.* .
   --with-kerberos5=$PREFIX \
   --sbindir=$PREFIX/bin
 make -j$CPU_COUNT
-make install
+# make install generate keys for the host which is not what we want
+make install-nokeys
