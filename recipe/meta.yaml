@@ -17,6 +17,7 @@ requirements:
   build:
     - autoconf
     - pkg-config
+    - gnuconfig  # [unix]
     - {{ compiler('c') }}
     - make
   host:
