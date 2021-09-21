@@ -7,7 +7,8 @@ cp $BUILD_PREFIX/share/gnuconfig/config.* .
   --with-zlib=$PREFIX \
   --with-ssl-dir=$PREFIX \
   --with-kerberos5=$PREFIX \
-  --sbindir=$PREFIX/bin
+  --sbindir=$PREFIX/bin \
+  --with-security-key-builtin
 make -j$CPU_COUNT
 # make install generate keys for the host which is not what we want
 make install-nokeys
