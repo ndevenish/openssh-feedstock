@@ -42,8 +42,7 @@ test:
 
 about:
   home: https://www.openssh.com/
-  license: BSD-style
-  license_family: BSD
+  license: SSH-OpenSSH
   license_file: LICENCE
   summary: A suite of secure networking utilities based on the SSH protocol
   description: |
