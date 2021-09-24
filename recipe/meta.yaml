@@ -10,7 +10,7 @@ source:
   sha256: 7ca34b8bb24ae9e50f33792b7091b3841d7e1b440ff57bc9fabddf01e2ed1e24
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -20,9 +20,11 @@ requirements:
     - gnuconfig  # [unix]
     - {{ compiler('c') }}
     - make
+    - sysroot_linux-64 2.17  # [linux64]
   host:
     - zlib
     - libedit
+    - libfido2
     - krb5
     - openssl
 
@@ -40,8 +42,7 @@ test:
 
 about:
   home: https://www.openssh.com/
-  license: BSD-style
-  license_family: BSD
+  license: SSH-OpenSSH
   license_file: LICENCE
   summary: A suite of secure networking utilities based on the SSH protocol
   description: |
@@ -54,4 +55,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - chrisburr
     - nehaljwani
