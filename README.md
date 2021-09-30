@@ -3,7 +3,7 @@ About openssh
 
 Home: https://www.openssh.com/
 
-Package license: BSD-style
+Package license: SSH-OpenSSH
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openssh-feedstock/blob/master/LICENSE.txt)
 
@@ -185,5 +185,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@chrisburr](https://github.com/chrisburr/)
 * [@nehaljwani](https://github.com/nehaljwani/)
 
