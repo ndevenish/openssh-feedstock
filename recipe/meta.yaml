@@ -1,5 +1,5 @@
 {% set name = "openssh" %}
-{% set version = "8.8p1" %}
+{% set version = "8.9p1" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/{{ name }}-{{ version }}.tar.gz
-  sha256: 4590890ea9bb9ace4f71ae331785a3a5823232435161960ed5fc86588f331fe9
+  sha256: fd497654b7ab1686dac672fb83dfb4ba4096e8b5ffcdaccd262380ae58bec5e7
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
