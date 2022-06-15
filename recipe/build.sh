@@ -1,5 +1,6 @@
 #!/bin/bash
 # Get an updated config.sub and config.guess
+autoreconf
 cp $BUILD_PREFIX/share/gnuconfig/config.* .
 ./configure \
   --with-libedit \
