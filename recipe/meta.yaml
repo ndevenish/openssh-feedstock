@@ -1,4 +1,4 @@
-{% set name = "openssh" %}
+{% set name = "openssh-insecure" %}
 {% set version = "9.0p1" %}
 
 package:
@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/{{ name }}-{{ version }}.tar.gz
-  sha256: 03974302161e9ecce32153cfa10012f1e65c8f3750f573a73ab1befd5972a28a
+  git_url: https://github.com/ndevenish/openssh-portable
+  git_rev: myapple_v_9_0_p1
 
 build:
   number: 0
-  skip: true  # [win]
+  skip: true  # [win or linux]
 
 requirements:
   build:
@@ -55,5 +55,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - chrisburr
-    - nehaljwani
+    - ndevenish
