@@ -12,10 +12,10 @@ jobs:
         CONFIG: osx_arm64_openssl1.1.1
         UPLOAD_PACKAGES: 'True'
         SHORT_CONFIG: osx_arm64_openssl1.1.1
-      osx_arm64_openssl3:
-        CONFIG: osx_arm64_openssl3
-        UPLOAD_PACKAGES: 'True'
-        SHORT_CONFIG: osx_arm64_openssl3
+#      osx_arm64_openssl3:
+#        CONFIG: osx_arm64_openssl3
+#        UPLOAD_PACKAGES: 'True'
+#        SHORT_CONFIG: osx_arm64_openssl3
   timeoutInMinutes: 360
 
   steps:
