@@ -1,5 +1,5 @@
-About openssh
-=============
+About openssh-insecure
+======================
 
 Home: https://www.openssh.com/
 
@@ -22,14 +22,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/openssh-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/openssh-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -43,62 +36,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_openssl1.1.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6354&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openssh-feedstock?branchName=main&jobName=linux&configuration=linux_64_openssl1.1.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_openssl3</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6354&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openssh-feedstock?branchName=main&jobName=linux&configuration=linux_64_openssl3" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_openssl1.1.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6354&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openssh-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_openssl1.1.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_openssl3</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6354&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openssh-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_openssl3" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_openssl1.1.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6354&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openssh-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_openssl1.1.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_openssl3</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6354&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openssh-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_openssl3" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_openssl1.1.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6354&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openssh-feedstock?branchName=main&jobName=osx&configuration=osx_64_openssl1.1.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_openssl3</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6354&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/openssh-feedstock?branchName=main&jobName=osx&configuration=osx_64_openssl3" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_arm64_openssl1.1.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6354&branchName=main">
@@ -125,53 +62,53 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-openssh-green.svg)](https://anaconda.org/conda-forge/openssh) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/openssh.svg)](https://anaconda.org/conda-forge/openssh) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/openssh.svg)](https://anaconda.org/conda-forge/openssh) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/openssh.svg)](https://anaconda.org/conda-forge/openssh) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-openssh--insecure-green.svg)](https://anaconda.org/conda-forge/openssh-insecure) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/openssh-insecure.svg)](https://anaconda.org/conda-forge/openssh-insecure) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/openssh-insecure.svg)](https://anaconda.org/conda-forge/openssh-insecure) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/openssh-insecure.svg)](https://anaconda.org/conda-forge/openssh-insecure) |
 
-Installing openssh
-==================
+Installing openssh-insecure
+===========================
 
-Installing `openssh` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `openssh-insecure` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `openssh` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `openssh-insecure` can be installed with `conda`:
 
 ```
-conda install openssh
-```
-
-or with `mamba`:
-
-```
-mamba install openssh
-```
-
-It is possible to list all of the versions of `openssh` available on your platform with `conda`:
-
-```
-conda search openssh --channel conda-forge
+conda install openssh-insecure
 ```
 
 or with `mamba`:
 
 ```
-mamba search openssh --channel conda-forge
+mamba install openssh-insecure
+```
+
+It is possible to list all of the versions of `openssh-insecure` available on your platform with `conda`:
+
+```
+conda search openssh-insecure --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search openssh-insecure --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search openssh --channel conda-forge
+mamba repoquery search openssh-insecure --channel conda-forge
 
-# List packages depending on `openssh`:
-mamba repoquery whoneeds openssh --channel conda-forge
+# List packages depending on `openssh-insecure`:
+mamba repoquery whoneeds openssh-insecure --channel conda-forge
 
-# List dependencies of `openssh`:
-mamba repoquery depends openssh --channel conda-forge
+# List dependencies of `openssh-insecure`:
+mamba repoquery depends openssh-insecure --channel conda-forge
 ```
 
 
@@ -216,17 +153,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating openssh-feedstock
-==========================
+Updating openssh-insecure-feedstock
+===================================
 
-If you would like to improve the openssh recipe or build a new
+If you would like to improve the openssh-insecure recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/openssh-feedstock are
+Note that all branches in the conda-forge/openssh-insecure-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
@@ -241,6 +178,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@chrisburr](https://github.com/chrisburr/)
-* [@nehaljwani](https://github.com/nehaljwani/)
+* [@ndevenish](https://github.com/ndevenish/)
 
