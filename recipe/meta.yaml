@@ -11,7 +11,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [win or linux]
+  skip: true  # [win or linux or not arm64]
 
 requirements:
   build:
